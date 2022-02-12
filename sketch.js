@@ -164,7 +164,7 @@ function showBoats() {
 
 //releasing the cannonball on key release
 function keyReleased() {
-  if (keyCode === DOWN_ARROW) {
+  if (keyCode === 32) {
     soundcan.play()
     balls[balls.length - 1].shoot();
 
