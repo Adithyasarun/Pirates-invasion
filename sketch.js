@@ -93,7 +93,7 @@ function draw() {
 
 //creating the cannon ball on key press
 function keyPressed() {
-  if (keyCode === DOWN_ARROW) {
+  if (keyCode === 32) {
     var cannonBall = new CannonBall(cannon.x, cannon.y);
     cannonBall.trajectory = [];
     Matter.Body.setAngle(cannonBall.body, cannon.angle);
